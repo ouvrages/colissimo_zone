@@ -1,4 +1,72 @@
 ---
+- :name: GUADELOUPE
+  :code: GP
+  :zone: '1'
+  :standard_available: true
+- :name: GUYANE FRANÇAISE
+  :code: GF
+  :zone: '1'
+  :standard_available: true
+- :name: MARTINIQUE
+  :code: MQ
+  :zone: '1'
+  :standard_available: true
+- :name: MAYOTTE
+  :code: YT
+  :zone: '1'
+  :standard_available: true
+- :name: NAVIRES DE L'ARMEE
+  :code: NAV
+  :zone: 
+  :standard_available: true
+- :name: NOUVELLE-CALÉDONIE
+  :code: NC
+  :zone: '2'
+  :standard_available: true
+- :name: POLYNÉSIE FRANÇAISE
+  :code: PF
+  :zone: '2'
+  :standard_available: true
+- :name: RÉUNION
+  :code: RE
+  :zone: '1'
+  :standard_available: true
+- :name: SAINT-BARTHÉLEMY
+  :code: GP2
+  :zone: '1'
+  :standard_available: true
+- :name: SAINT-MARTIN
+  :code: GP3
+  :zone: '1'
+  :standard_available: true
+- :name: SAINT-PIERRE-ET-MIQUELON
+  :code: PM
+  :zone: '1'
+  :standard_available: true
+- :name: WALLIS ET FUTUNA
+  :code: WF
+  :zone: '2'
+  :standard_available: true
+- :name: 25000 (SECTEUR POSTAL)
+  :code: FS2
+  :zone: 
+  :standard_available: true
+- :name: 55000 (SECTEUR POSTAL)
+  :code: FS5
+  :zone: 
+  :standard_available: true
+- :name: 69000 (SECTEUR POSTAL)
+  :code: FS6
+  :zone: 
+  :standard_available: true
+- :name: 71000 (SECTEUR POSTAL)
+  :code: FS7
+  :zone: 
+  :standard_available: true
+- :name: 85000 (SECTEUR POSTAL)
+  :code: FS8
+  :zone: 
+  :standard_available: true
 - :name: Afghanistan
   :code: AF
   :zone: D
