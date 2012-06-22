@@ -1,6 +1,12 @@
 # ColissimoZone
 
-TODO: Write a gem description
+Country zones for the French postal service Colissimo
+
+Liste des pays distribués par Colissimo avec leur zone.
+
+Certains pays n'ont pas l'option "Standard". Ils sont marqués avec la valeur standard_available à faux.
+
+Les données ont été récupérées automatiquement sur le site de Colissimo. Elles peuvent être mises à jour avec "rake update".
 
 ## Installation
 
@@ -18,7 +24,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Examples:
+
+    ColissimoZone.all.each do |country|
+      puts "#{country[:name]} (#{country[:code]): #{country[:zone]}"
+    end
+
+    ColissimoZone.all.select { |country| country[:standard_available] }.map { |country| country[:name] }
 
 ## Contributing
 

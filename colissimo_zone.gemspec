@@ -2,10 +2,10 @@
 require File.expand_path('../lib/colissimo_zone/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Michael Witrant"]
-  gem.email         = ["michael@ouvrages-web.fr"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Ouvrages"]
+  gem.email         = ["contact@ouvrages-web.fr"]
+  gem.description   = %q{Country zones for the French postal service Colissimo}
+  gem.summary       = %q{List of countries with Colissimo zone}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
