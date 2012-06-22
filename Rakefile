@@ -124,8 +124,10 @@ task :update do
     p country_data
     data << country_data
   end
-  
+
   File.open("lib/data/colissimo_zones.yaml", "w") do |f|
     f.write data.to_yaml
   end
+
+  browser.close
 end
