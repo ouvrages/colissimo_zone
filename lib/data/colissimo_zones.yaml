@@ -2,645 +2,860 @@
 - :name: Afghanistan
   :code: AF
   :zone: D
+  :standard_available: true
 - :name: Afrique Du Sud
   :code: ZA
   :zone: C
+  :standard_available: true
 - :name: Albanie
   :code: AL
   :zone: B
+  :standard_available: true
 - :name: Algerie
   :code: DZ
   :zone: B
+  :standard_available: true
 - :name: Allemagne
   :code: DE
   :zone: A
+  :standard_available: true
 - :name: Angola
   :code: AO
   :zone: C
+  :standard_available: true
 - :name: Anguilla
   :code: AI
   :zone: D
+  :standard_available: true
 - :name: Antarctique
   :code: AQ
   :zone: D
+  :standard_available: true
 - :name: Antigua-Et-Barbuda
   :code: AG
   :zone: D
+  :standard_available: true
 - :name: Antilles Neerlandaises
   :code: AN
   :zone: D
+  :standard_available: true
 - :name: Arabie Saoudite
   :code: SA
   :zone: C
+  :standard_available: true
 - :name: Argentine
   :code: AR
   :zone: D
+  :standard_available: true
 - :name: Armenie
   :code: AM
   :zone: B
+  :standard_available: true
 - :name: Aruba
   :code: AW
   :zone: D
+  :standard_available: true
 - :name: Ascension
   :code: AC
   :zone: C
+  :standard_available: true
 - :name: Australie
   :code: AU
   :zone: D
+  :standard_available: true
 - :name: Autriche
   :code: AT
   :zone: A
+  :standard_available: true
 - :name: Azerbaijan
   :code: AZ
   :zone: B
+  :standard_available: true
 - :name: Bahamas
   :code: BS
   :zone: D
+  :standard_available: true
 - :name: Bahrein
   :code: BH
   :zone: C
+  :standard_available: true
 - :name: Bangladesh
   :code: BD
   :zone: D
+  :standard_available: true
 - :name: Barbade
   :code: BB
   :zone: D
+  :standard_available: true
 - :name: Belarus
   :code: BY
   :zone: B
+  :standard_available: true
 - :name: Belgique
   :code: BE
   :zone: A
+  :standard_available: true
 - :name: Belize
   :code: BZ
   :zone: D
+  :standard_available: true
 - :name: Benin
   :code: BJ
   :zone: C
+  :standard_available: true
 - :name: Bermudes
   :code: BM
   :zone: D
+  :standard_available: true
 - :name: Bolivie
   :code: BO
   :zone: D
+  :standard_available: true
 - :name: Bosnie-Herzegovines
   :code: BA
   :zone: B
+  :standard_available: true
 - :name: Botswana
   :code: BW
   :zone: C
+  :standard_available: true
 - :name: Bresil
   :code: BR
   :zone: D
+  :standard_available: true
 - :name: Brunei Darussalam
   :code: BN
   :zone: D
+  :standard_available: true
 - :name: Bulgarie
   :code: BG
   :zone: A
+  :standard_available: true
 - :name: Burkina Faso
   :code: BF
   :zone: C
+  :standard_available: true
 - :name: Burundi
   :code: BI
   :zone: C
+  :standard_available: true
 - :name: Cambodge
   :code: KH
   :zone: D
+  :standard_available: true
 - :name: Cameroun
   :code: CM
   :zone: C
+  :standard_available: true
 - :name: Canada
   :code: CA
   :zone: C
+  :standard_available: true
 - :name: Cap-Vert
   :code: CV
   :zone: C
+  :standard_available: true
 - :name: Chili
   :code: CL
   :zone: D
+  :standard_available: true
 - :name: Chine
   :code: CN
   :zone: D
+  :standard_available: true
 - :name: Chypre
   :code: CY
   :zone: A
+  :standard_available: true
 - :name: Colombie
   :code: CO
   :zone: D
+  :standard_available: true
 - :name: Comores
   :code: KM
   :zone: C
+  :standard_available: true
 - :name: Congo
   :code: CG
   :zone: C
+  :standard_available: true
 - :name: Coree, Republique De
   :code: KR
   :zone: D
+  :standard_available: true
 - :name: Coree, Republique Populaire Democra
   :code: KP
   :zone: D
+  :standard_available: true
 - :name: Costa Rica
   :code: CR
   :zone: D
+  :standard_available: true
 - :name: Cote D'ivoire
   :code: CI
   :zone: C
+  :standard_available: true
 - :name: Croatie
   :code: HR
   :zone: B
+  :standard_available: true
 - :name: Cuba
   :code: CU
   :zone: D
+  :standard_available: true
 - :name: Danemark
   :code: DK
   :zone: A
+  :standard_available: true
 - :name: Djibouti
   :code: DJ
   :zone: C
+  :standard_available: true
 - :name: Dominique
   :code: DM
   :zone: D
+  :standard_available: true
 - :name: Egypte
   :code: EG
   :zone: C
+  :standard_available: true
 - :name: El Salvador
   :code: SV
   :zone: D
+  :standard_available: true
 - :name: Emirats Arabes Unis
   :code: AE
   :zone: C
+  :standard_available: true
 - :name: Equateur
   :code: EC
   :zone: D
+  :standard_available: true
 - :name: Erythree
   :code: ER
   :zone: C
+  :standard_available: true
 - :name: Espagne
   :code: ES
   :zone: A
+  :standard_available: true
 - :name: Estonie
   :code: EE
   :zone: A
+  :standard_available: true
 - :name: Etats-Unis
   :code: US
   :zone: C
+  :standard_available: true
 - :name: Ethiopie
   :code: ET
   :zone: C
+  :standard_available: true
 - :name: Fidji
   :code: FJ
   :zone: D
+  :standard_available: true
 - :name: Finlande
   :code: FI
   :zone: A
+  :standard_available: true
 - :name: Gabon
   :code: GA
   :zone: C
+  :standard_available: true
 - :name: Gambie
   :code: GM
   :zone: C
+  :standard_available: true
 - :name: Georgie
   :code: GE
   :zone: B
+  :standard_available: true
 - :name: Georgie Et Iles Sandwich Du Sud
   :code: GS
   :zone: D
+  :standard_available: true
 - :name: Ghana
   :code: GH
   :zone: C
+  :standard_available: true
 - :name: Gibraltar
   :code: GI
   :zone: A
+  :standard_available: true
 - :name: Grece
   :code: GR
   :zone: A
+  :standard_available: true
 - :name: Grenade
   :code: GD
   :zone: D
+  :standard_available: true
 - :name: Groenland
   :code: GL
   :zone: A
+  :standard_available: false
 - :name: Guam
   :code: GU
   :zone: D
+  :standard_available: true
 - :name: Guatemala
   :code: GT
   :zone: D
+  :standard_available: true
 - :name: Guinee
   :code: GN
   :zone: C
+  :standard_available: true
 - :name: Guinee Equatoriale
   :code: GQ
   :zone: C
+  :standard_available: true
 - :name: Guinee-Bissau
   :code: GW
   :zone: C
+  :standard_available: true
 - :name: Guyana
   :code: GY
   :zone: D
+  :standard_available: true
 - :name: Haiti
   :code: HT
   :zone: D
+  :standard_available: true
 - :name: Honduras
   :code: HN
   :zone: D
+  :standard_available: true
 - :name: Hong Kong
   :code: HK
   :zone: D
+  :standard_available: true
 - :name: Hongrie
   :code: HU
   :zone: A
+  :standard_available: true
 - :name: Ile Norfolk
   :code: NF
   :zone: D
+  :standard_available: true
 - :name: Iles Caimanes
   :code: KY
   :zone: D
+  :standard_available: true
 - :name: Iles Cook
   :code: CK
   :zone: D
+  :standard_available: true
 - :name: Iles Feroe
   :code: FO
   :zone: A
+  :standard_available: true
 - :name: Iles Malouines (falkland)
   :code: FK
   :zone: D
+  :standard_available: true
 - :name: Iles Mariannes Du Nord
   :code: MP
   :zone: D
+  :standard_available: true
 - :name: Iles Marshall
   :code: MH
   :zone: D
+  :standard_available: true
 - :name: Iles Salomon
   :code: SB
   :zone: D
+  :standard_available: true
 - :name: Iles Turques Et Caiques
   :code: TC
   :zone: D
+  :standard_available: true
 - :name: Iles Vierges Britanniques
   :code: VG
   :zone: D
+  :standard_available: true
 - :name: Iles Vierges Des Etats-Unis
   :code: VI
   :zone: D
+  :standard_available: true
 - :name: Inde
   :code: IN
   :zone: D
+  :standard_available: true
 - :name: Indonesie
   :code: ID
   :zone: D
+  :standard_available: true
 - :name: Iran (republique Islamique)
   :code: IR
   :zone: C
+  :standard_available: true
 - :name: Irlande
   :code: IE
   :zone: A
+  :standard_available: true
 - :name: Islande
   :code: IS
   :zone: B
+  :standard_available: true
 - :name: Israel
   :code: IL
   :zone: C
+  :standard_available: true
 - :name: Italie
   :code: IT
   :zone: A
+  :standard_available: true
 - :name: Jamaique
   :code: JM
   :zone: D
+  :standard_available: true
 - :name: Japon
   :code: JP
   :zone: D
+  :standard_available: true
 - :name: Jordanie
   :code: JO
   :zone: C
+  :standard_available: true
 - :name: Kazakhstan
   :code: KZ
   :zone: D
+  :standard_available: true
 - :name: Kenya
   :code: KE
   :zone: C
+  :standard_available: true
 - :name: Kirghizistan
   :code: KG
   :zone: D
+  :standard_available: true
 - :name: Kiribati
   :code: KI
   :zone: D
+  :standard_available: true
 - :name: Koweit
   :code: KW
   :zone: C
+  :standard_available: true
 - :name: Lao, Republique Democratique Popula
   :code: LA
   :zone: D
+  :standard_available: true
 - :name: Lesotho
   :code: LS
   :zone: C
+  :standard_available: true
 - :name: Lettonie
   :code: LV
   :zone: A
+  :standard_available: true
 - :name: Liban
   :code: LB
   :zone: C
+  :standard_available: true
 - :name: Liberia
   :code: LR
   :zone: C
+  :standard_available: true
 - :name: Libye (jamahiriya Arabe Libyenne)
   :code: LY
   :zone: C
+  :standard_available: true
 - :name: Liechtenstein
   :code: LI
   :zone: A
+  :standard_available: true
 - :name: Lituanie
   :code: LT
   :zone: A
+  :standard_available: true
 - :name: Luxembourg
   :code: LU
   :zone: A
+  :standard_available: true
 - :name: Macao
   :code: MO
   :zone: D
+  :standard_available: true
 - :name: Macedoine, L Ex-Republique Yougosla
   :code: MK
   :zone: B
+  :standard_available: true
 - :name: Madagascar
   :code: MG
   :zone: C
+  :standard_available: true
 - :name: Malaisie
   :code: MY
   :zone: D
+  :standard_available: true
 - :name: Malawi
   :code: MW
   :zone: C
+  :standard_available: true
 - :name: Maldives
   :code: MV
   :zone: D
+  :standard_available: true
 - :name: Mali
   :code: ML
   :zone: C
+  :standard_available: true
 - :name: Malte
   :code: MT
   :zone: A
+  :standard_available: true
 - :name: Maroc
   :code: MA
   :zone: B
+  :standard_available: true
 - :name: Maurice
   :code: MU
   :zone: C
+  :standard_available: true
 - :name: Mauritanie
   :code: MR
   :zone: C
+  :standard_available: true
 - :name: Mexique
   :code: MX
   :zone: D
+  :standard_available: true
 - :name: Micronesie, Etats Federes De
   :code: FM
   :zone: D
+  :standard_available: true
 - :name: Moldavie, Republique De Moldova
   :code: MD
   :zone: B
+  :standard_available: true
 - :name: Mongolie
   :code: MN
   :zone: D
+  :standard_available: true
 - :name: Montenegro
   :code: ME
   :zone: B
+  :standard_available: true
 - :name: Montserrat
   :code: MS
   :zone: D
+  :standard_available: true
 - :name: Mozambique
   :code: MZ
   :zone: C
+  :standard_available: true
 - :name: Myanmar
   :code: MM
   :zone: D
+  :standard_available: true
 - :name: Namibie
   :code: NA
   :zone: C
+  :standard_available: true
 - :name: Nauru
   :code: NR
   :zone: D
+  :standard_available: true
 - :name: Nepal
   :code: NP
   :zone: D
+  :standard_available: true
 - :name: Nicaragua
   :code: NI
   :zone: D
+  :standard_available: true
 - :name: Niger
   :code: NE
   :zone: C
+  :standard_available: true
 - :name: Nigeria
   :code: NG
   :zone: C
+  :standard_available: true
 - :name: Norvege
   :code: 'NO'
   :zone: B
+  :standard_available: true
 - :name: Nouvelle-Zelande
   :code: NZ
   :zone: D
+  :standard_available: true
 - :name: Oman
   :code: OM
   :zone: C
+  :standard_available: true
 - :name: Ouganda
   :code: UG
   :zone: C
+  :standard_available: true
 - :name: Ouzbekistan
   :code: UZ
   :zone: D
+  :standard_available: true
 - :name: Pakistan
   :code: PK
   :zone: D
+  :standard_available: true
 - :name: Palaos
   :code: PW
   :zone: D
+  :standard_available: true
 - :name: Panama
   :code: PA
   :zone: D
+  :standard_available: true
 - :name: Papouasie-Nouvelle-Guinee
   :code: PG
   :zone: D
+  :standard_available: true
 - :name: Paraguay
   :code: PY
   :zone: D
+  :standard_available: true
 - :name: Pays-Bas
   :code: NL
   :zone: A
+  :standard_available: true
 - :name: Perou
   :code: PE
   :zone: D
+  :standard_available: true
 - :name: Philippines
   :code: PH
   :zone: D
+  :standard_available: true
 - :name: Pitcairn
   :code: PN
   :zone: D
+  :standard_available: true
 - :name: Pologne
   :code: PL
   :zone: A
+  :standard_available: true
 - :name: Porto Rico
   :code: PR
   :zone: C
+  :standard_available: true
 - :name: Portugal
   :code: PT
   :zone: A
+  :standard_available: true
 - :name: Qatar
   :code: QA
   :zone: C
+  :standard_available: true
 - :name: Republique Arabe Syrienne
   :code: SY
   :zone: C
+  :standard_available: true
 - :name: Republique Centrafricaine
   :code: CF
   :zone: C
+  :standard_available: true
 - :name: Republique Democratique Du Congo
   :code: CD
   :zone: C
+  :standard_available: true
 - :name: Republique Dominicaine
   :code: DO
   :zone: D
+  :standard_available: true
 - :name: Republique Tcheque
   :code: CZ
   :zone: A
+  :standard_available: true
 - :name: Roumanie
   :code: RO
   :zone: A
+  :standard_available: true
 - :name: Royaume-Uni
   :code: GB
   :zone: A
+  :standard_available: true
 - :name: Russie, Federation De
   :code: RU
   :zone: B
+  :standard_available: true
 - :name: Rwanda
   :code: RW
   :zone: C
+  :standard_available: true
 - :name: Saint-Christophe-Et-Nieves, Saint-K
   :code: KN
   :zone: D
+  :standard_available: true
 - :name: Sainte-Helene
   :code: SH
   :zone: C
+  :standard_available: true
 - :name: Sainte-Lucie
   :code: LC
   :zone: D
+  :standard_available: true
 - :name: Saint-Marin
   :code: SM
   :zone: A
+  :standard_available: true
 - :name: Saint-Siege (etat De La Cite Du Vat
   :code: VA
   :zone: A
+  :standard_available: true
 - :name: Saint-Vincent-Et-Les Grenadines
   :code: VC
   :zone: D
+  :standard_available: true
 - :name: Samoa
   :code: WS
   :zone: D
+  :standard_available: true
 - :name: Samoa Americaines
   :code: AS
   :zone: D
+  :standard_available: true
 - :name: Sao Tome-Et-Principe
   :code: ST
   :zone: C
+  :standard_available: true
 - :name: Senegal
   :code: SN
   :zone: C
+  :standard_available: true
 - :name: Serbie
   :code: RS
   :zone: B
+  :standard_available: true
 - :name: Seychelles
   :code: SC
   :zone: C
+  :standard_available: true
 - :name: Sierra Leone
   :code: SL
   :zone: C
+  :standard_available: true
 - :name: Singapour
   :code: SG
   :zone: D
+  :standard_available: true
 - :name: Slovaquie
   :code: SK
   :zone: A
+  :standard_available: true
 - :name: Slovenie
   :code: SI
   :zone: A
+  :standard_available: true
 - :name: Soudan
   :code: SD
   :zone: C
+  :standard_available: true
 - :name: Sri Lanka
   :code: LK
   :zone: D
+  :standard_available: true
 - :name: Suede
   :code: SE
   :zone: A
+  :standard_available: true
 - :name: Suisse
   :code: CH
   :zone: A
+  :standard_available: true
 - :name: Suriname
   :code: SR
   :zone: D
+  :standard_available: true
 - :name: Swaziland
   :code: SZ
   :zone: C
+  :standard_available: true
 - :name: Tadjikistan
   :code: TJ
   :zone: D
+  :standard_available: true
 - :name: Taiwan, Province De Chine
   :code: TW
   :zone: D
+  :standard_available: true
 - :name: Tanzanie, Republique Unie De
   :code: TZ
   :zone: C
+  :standard_available: true
 - :name: Tchad
   :code: TD
   :zone: C
+  :standard_available: true
 - :name: Thailande
   :code: TH
   :zone: D
+  :standard_available: true
 - :name: Timor Oriental, Timor-Leste
   :code: TL
   :zone: D
+  :standard_available: true
 - :name: Togo
   :code: TG
   :zone: C
+  :standard_available: true
 - :name: Tonga
   :code: TO
   :zone: D
+  :standard_available: true
 - :name: Trinite-Et-Tobago
   :code: TT
   :zone: D
+  :standard_available: true
 - :name: Tristan Da Cuhna
   :code: TA
   :zone: D
+  :standard_available: true
 - :name: Tunisie
   :code: TN
   :zone: B
+  :standard_available: true
 - :name: Turkmenistan
   :code: TM
   :zone: D
+  :standard_available: true
 - :name: Turquie
   :code: TR
   :zone: B
+  :standard_available: true
 - :name: Tuvalu
   :code: TV
   :zone: D
+  :standard_available: true
 - :name: Ukraine
   :code: UA
   :zone: B
+  :standard_available: true
 - :name: Uruguay
   :code: UY
   :zone: D
+  :standard_available: true
 - :name: Vanuatu
   :code: VU
   :zone: D
+  :standard_available: true
 - :name: Venezuela
   :code: VE
   :zone: D
+  :standard_available: true
 - :name: Viet Nam
   :code: VN
   :zone: D
+  :standard_available: true
 - :name: Yemen
   :code: YE
   :zone: C
+  :standard_available: true
 - :name: Zambie
   :code: ZM
   :zone: C
+  :standard_available: true
 - :name: Zimbabwe
   :code: ZW
   :zone: C
+  :standard_available: true
