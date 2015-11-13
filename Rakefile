@@ -9,20 +9,18 @@ task :update do
   require 'nokogiri'
   require 'yaml'
   require 'bigdecimal'
-  
+
   data = []
-  
+
   zone_prices = {
-    BigDecimal("12.70") => "1",
-    BigDecimal("15.20") => "2",
+    BigDecimal("13.85") => "1",
+    BigDecimal("16.55") => "2",
   }
-  
+
   browser = Watir::Browser.new
-  browser.goto 'http://www.colissimo.fr/'
-  browser.link(:text => "Envoyer un colis").click
-  browser.link(:text => "Colissimo Outre-mer").click
-  browser.link(:text => "Calculer le tarif").click
-  
+  browser.driver.manage.timeouts.implicit_wait = 60
+  browser.goto 'http://www.colissimo.fr/portail_colissimo/ficheProduitAction.do?f=FR-6'
+
   country_select = browser.select_list(:name => 'paysDestinationFicheProduit')
   Watir::Wait.until { country_select.options.size > 0 }
   doc = Nokogiri::HTML(country_select.html)
@@ -32,7 +30,7 @@ task :update do
 
   countries.each do |code, name|
     country_select.select name
-    
+
     solution_select = browser.select_list(:name => 'solutionAffranchissement')
     solution_select.when_present.select "Guichet"
     browser.text_field(:name => 'poids').when_present.set '1'
@@ -47,13 +45,14 @@ task :update do
       standard_available = false
     end
     browser.select_list(:name => 'natureEnvoi').select select_option
-    browser.image(:src => "img/misc/boutonCalculTarif.gif").when_present.click
+    sleep 1
+    browser.image(:src => "http://1.1.1.3/bmi/www.colissimo.fr/portail_colissimo/img/misc/boutonCalculTarif.gif").when_present.click
     price_text = browser.p(:class => "price").when_present.text
     price, = price_text.scan(/(\d+\.\d{2})/).first
     if price
       price = BigDecimal(price) - price_diff
       zone = zone_prices[price]
-      puts "Zone not found for price #{price.to_s} on #{name}" unless zone
+      puts "Zone not found for price #{price.to_s("F")} on #{name}" unless zone
     else
       puts "No price on #{name}"
       zone = nil
@@ -68,18 +67,12 @@ task :update do
     data << country_data
   end
 
-  
-  
   zone_prices = {
-    BigDecimal("16.15") => "A",
-    BigDecimal("19.80") => "B",
-    BigDecimal("23.20") => "C",
-    BigDecimal("26.40") => "D",
+    BigDecimal("14.85") => "A",
+    BigDecimal("19.35") => "B",
+    BigDecimal("26.30") => "C",
   }
-  browser.goto 'http://www.colissimo.fr/'
-  browser.link(:text => "Envoyer un colis").click
-  browser.link(:text => "Colissimo International").click
-  browser.link(:text => "Calculer le tarif").click
+  browser.goto 'http://www.colissimo.fr/portail_colissimo/ficheProduitAction.do?f=FR-9'
   solution_select = browser.select_list(:name => 'solutionAffranchissement')
   solution_select.select "Guichet"
   country_select = browser.select_list(:name => 'paysDestination')
@@ -88,7 +81,7 @@ task :update do
   options = doc.css("option")
   options.shift
   countries = options.map { |option| [option["value"], option.text] }
-  
+
   countries.each do |code, name|
     country_select.select name
     browser.text_field(:name => 'poids').when_present.set '1'
@@ -102,15 +95,16 @@ task :update do
       price_diff = 6
       standard_available = false
     end
-    
+
     browser.select_list(:name => 'natureEnvoi').select select_option
-    browser.image(:src => "img/misc/boutonCalculTarif.gif").when_present.click
+    sleep 1
+    browser.image(:src => "http://1.1.1.3/bmi/www.colissimo.fr/portail_colissimo/img/misc/boutonCalculTarif.gif").when_present.click
     price_text = browser.p(:class => "price").when_present.text
     price, = price_text.scan(/(\d+\.\d{2})/).first
     if price
       price = BigDecimal(price) - price_diff
       zone = zone_prices[price]
-      puts "Zone not found for price #{price.to_s} on #{name}" unless zone
+      puts "Zone not found for price #{price.to_s("F")} on #{name}" unless zone
     else
       puts "No price on #{name}"
       zone = nil
