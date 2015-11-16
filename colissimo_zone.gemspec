@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "colissimo_zone"
   gem.require_paths = ["lib"]
   gem.version       = ColissimoZone::VERSION
+
+  gem.add_development_dependency 'rspec', '~> 3.0'
 end
