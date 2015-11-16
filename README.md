@@ -27,10 +27,30 @@ Or install it yourself as:
 Examples:
 
     ColissimoZone.all.each do |country|
-      puts "#{country[:name]} (#{country[:code]): #{country[:zone]}"
+      puts "#{country.name} (#{country.code): #{country.zone}"
     end
 
-    ColissimoZone.all.select { |country| country[:standard_available] }.map { |country| country[:name] }
+    ColissimoZone.all.select { |country| country.standard_available }.map { |country| country.name }
+
+    country = ColissimoZone.find("AR")
+    => #<ColissimoZone::Country:0x007fe983529b98 @code="AR", @name="Argentine", @zone="C", @standard_available=true>
+
+    country.name
+    => "Argentine"
+
+    country.zone
+    => "C"
+
+    country = ColissimoZone.find("MARTINIQUE")
+    => #<ColissimoZone::Country:0x007fe98352a0c0 @code="MQ", @name="MARTINIQUE", @zone="1", @standard_available=false>
+
+    country.code
+    => "MQ"
+
+    country.zone
+    => "1"
+
+
 
 ## Contributing
 
