@@ -18,7 +18,7 @@ module ColissimoZone
     end
 
     def find(country_or_code)
-      @countries.detect { |country| country.name == country_or_code || country.code == country_or_code }
+      all.detect { |country| country.name == country_or_code || country.code == country_or_code }
     end
   end
 
