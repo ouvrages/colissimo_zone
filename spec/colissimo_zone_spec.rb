@@ -6,6 +6,10 @@ describe ColissimoZone do
     expect(ColissimoZone.respond_to?(:all)).to be(true)
   end
 
+  it "respond_to #find" do
+    expect(ColissimoZone.respond_to?(:find)).to be(true)
+  end
+
   describe "#all" do
     it "returns collection of ColissimoZone::Country" do
       expect(ColissimoZone.all.all? { |country| country.is_a?(ColissimoZone::Country) }).to be(true)
@@ -16,6 +20,10 @@ describe ColissimoZone do
     it "returns the right Country object" do
       expect(ColissimoZone.find("MQ")).to eq(ColissimoZone.all.detect { |country| country.code == "MQ" })
       expect(ColissimoZone.find("Albanie")).to eq(ColissimoZone.all.detect { |country| country.name == "Albanie" })
+    end
+
+    it "returns nil if no matched country" do
+      expect(ColissimoZone.find("no_matched")).to eq(nil)
     end
   end
 
